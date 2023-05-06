@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav {
+    background-color:rgba(30, 22, 22, 0.867);
+}
+
+.navparent{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+
+header{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(https://rooteto.com/wp-content/uploads/2017/02/en-kaliteli-hd-arkaplan-resim.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.headercontent{
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerbody{
+    width: 60%;
+}
+
+.cardsparent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+    
+}
+
+.card{
+    width: 30%;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(img/buraya\ bakarlar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card h3,a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.aboutparent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.aboutleft{
+    width: 50%;
+
+}
+
+.aboutleft img{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+}
+
+.aboutright{
+    width: 50%;
+    
+
+}
+.aboutrightcontent{
+    
+    display: flex;
+    text-align: center;
+
+
+}
+
+footer{
+    background-color: rgb(133, 55, 55);
+    color: white;
+    padding: 2rem 0rem;
+    margin-top: 3rem;
+  }
+  
+  footer ul li{
+    list-style: none;
+  }
+  
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footerParent{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footerBox{
+    width: 30%;
+  }
+
+  .footerBox h3 {
+
+   text-align: center;
+  }
+  
+
+
+
+@media screen and (max-width:700px) {
+    .container{
+        width: 98%;
+    }
+    .menu{
+        display: none;
+    }
+    .headerbody{
+        width: 100%;
+    }
+.cardsparent{
+    display: block;
+    
+}
+.card{
+    width: 100%;
+    margin-top: 1.5rem;
+
+}
+.aboutparent{
+    display: block;
+   
+}
+
+.aboutleft,.aboutright{
+    width: 100%;
+    margin-top: 1.5rem;
+    
+}
+
+}
